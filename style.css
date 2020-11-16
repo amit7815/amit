@@ -1,11 +1,29 @@
-
+span{
+    color: rgb(137, 196, 211);
+    margin-left: -20px;
+}
+::marker{
+    color: azure;
+}
 .mr-sm-2{
    border-radius: 20px;
    width: 200px;
 
 }
 
-
+input{
+   margin-left: 250px;
+}
+.dropdown-toggle{
+    margin-top: -23px;
+    
+}
+.create{
+    margin-right: -40px;
+}
+.search{
+    border: hidden;
+}
 .beg{
     background-image: url(computer.jpeg);
     width: 90%;
@@ -17,7 +35,18 @@
     margin-left: 60px;
     z-index: 0;
 }
-
+h1{
+    color: white;
+    padding: 20% 20%;
+    padding-bottom: 0;
+}
+h6{
+    color: white;
+    margin-left:20%;
+}
+.upper,.drop{
+    display: none;
+}
 .beg::after{
     content: '';
     position: absolute;
@@ -58,7 +87,10 @@
 .grp, .arrow{
     display: none;
 }
-
+.eye{
+    float: right;
+    margin: 20px;
+}
 .profile{
     width: 30px;
     height: 30px;
@@ -127,7 +159,15 @@
     .hidden{
         display: none;
     }
-    
+    h1{
+        color: white;
+        padding: 25% 20%;
+        padding-bottom: 0;
+    }
+    h6{
+        color: white;
+        margin-left:20%;
+    }
     
    
 }
@@ -190,7 +230,14 @@
         height: 70%;
         width: 100%;
     }
-    
+    .eye{
+        font-size: 10px;
+       margin-right: 140px;
+       margin-top: -10px;
+       color: black;
+
+        
+    }
    
       
     
@@ -198,7 +245,9 @@
         display: none;
         
     }
-   
+    .search{
+        float: left;
+    }
     
 
 .mr-sm-2 {
@@ -211,7 +260,16 @@
 .dropdown-toggle{
     margin-top: 0px;
 }
-
+.navbar-toggler-icon{
+    margin-right: -20px;
+    background-color: rgb(43, 36, 36) ;
+}
+.navbar-toggler{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(43, 36, 36);
+    margin-left: 50px;
+}
 .upper,.drop{
     display: block;
 }
@@ -266,5 +324,13 @@
 @media (min-width: 600px){
     .card{
         width: 60%;
-    }  
+    }
+    
 }
+
+
+
+
+
+
+
